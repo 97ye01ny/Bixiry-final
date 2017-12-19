@@ -1,0 +1,39 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNum"
+        android:layout_marginTop="36dp"
+        android:text="Phone Number"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMsg"
+        android:layout_marginTop="34dp"
+        android:text="Message"
+        android:layout_below="@+id/etNum"
+        android:layout_alignLeft="@+id/etNum"
+        android:layout_alignStart="@+id/etNum" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:id="@+id/btnSms"
+        android:layout_below="@+id/etMsg"
+        android:layout_alignLeft="@+id/etMsg"
+        android:layout_alignStart="@+id/etMsg"
+        android:layout_marginTop="29dp" />
+
+</RelativeLayout>
